@@ -40,6 +40,7 @@ def FMM(dictionary, inPath, outPath, max_length=7):
             my_list.append(tryWord)
             line = line[len(tryWord):]
             rowLength = len(line)
+            print('添加修改4.0')
         # 将分词结果写入生成文件
         for word in my_list:
             if word == '\n':

@@ -16,6 +16,8 @@ def getTrueAnswer(inPath, outPath):
     fR.close()
     fW.close()
 
+    print('添加修改2.0')
+
 
 def accuracy(myAnswer, trueAnswer):
     r1 = open(myAnswer, 'r', encoding='utf-8')
@@ -36,6 +38,7 @@ def accuracy(myAnswer, trueAnswer):
         if content1.strip() == content2.strip():
             num += 1
         count += 1
+        print('添加修改3.0')
 
     result = num / r1_len
     return result
