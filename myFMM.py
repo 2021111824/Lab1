@@ -8,6 +8,10 @@ def createDict(dictFile):
     f = open(dictFile, 'r', encoding='utf-8')
     for line in f.readlines():
         lexicon.add(line.strip('\n'))
+        print("修改下")
+        print("再修改下")
+        print("又来修改了")
+        print("修改")
     f.close()
     return lexicon
 

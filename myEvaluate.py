@@ -16,7 +16,7 @@ def getTrueAnswer(inPath, outPath):
     fR.close()
     fW.close()
 
-    print('添加修改2.0')
+    # print('添加修改2.0')
 
 
 def accuracy(myAnswer, trueAnswer):
